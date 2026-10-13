@@ -30,4 +30,4 @@ jobs:
           context: .
           file: ./Dockerfile
           push: true
-          tags: ${{ secrets.DOCKERHUB_USERNAME }}/bse_04_actions:latest
+          tags: ${{ secrets.DOCKERHUB_USERNAME }}/bse_004_actions:latest
